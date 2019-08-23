@@ -62,7 +62,7 @@ Canvas表示画布，所有图形都绘制在Canvas上，在这个例子中画�
 [上一篇](https://blog.csdn.net/qq_24342739/article/details/99821442)文章介绍了MPS入门案例Shapes中创建Concept的过程，这篇文章将介绍如果创建Shapes这个DSL的Editor，它在语言层面上描述的是某种DSL的具体语法(Concrete Syntax)，也就是建模时写的代码（包含关键字、格式等），我们通常说的C++、Java、Python等的语法事实上指的就是这些语言的具体语法。
 ## 创建Editor
 由于Shape是一个抽象的Concept，所以不需要定义它的Editor，从它的具体Concept开始创建Editor
-## 创建Circle的Editor
+### 创建Circle的Editor
 首先打开Circle的Concept文件，我们可以通过在该文件下右键选择New→Concept Editor创建它的Editor，也可以通过点击编辑器下方的选项卡Editor，进入之后点击空白处选择，如下图所示：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823212334446.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823212521752.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
@@ -98,7 +98,7 @@ Canvas表示画布，所有图形都绘制在Canvas上，在这个例子中画�
 其中常量是固定不变的字符串，属性值是需要我们在建模时输入的值，定义完之后如下图所示：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823223731221.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
 
-## 创建Square的Editor
+### 创建Square的Editor
 按照创建Circle Editor的步骤再来创建一个Square的Editor，包含的内容如下：
 
  - 常量：square
@@ -111,7 +111,7 @@ Canvas表示画布，所有图形都绘制在Canvas上，在这个例子中画�
 
 定义完之后如下图所示：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823224917213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
-## 创建Canvas的Editor
+### 创建Canvas的Editor
 Canvas的Edito比Circle和Square稍微复杂一些，因为它包含shapes这个children，需要用到(/ /) child node cell list (vertical)这个布局，如下图所示：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823225937459.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
 Canvas的Editor包含的内容如下：
