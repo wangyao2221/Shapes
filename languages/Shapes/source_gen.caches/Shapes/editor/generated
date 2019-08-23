@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-ao45kzcus38nxufzndzw1vucq1jg7n6" />
+<product version="3" modelHash="w3pnxpd1tg20ecyarvw9fysez34gjr">
+  <files names="Canvas_Editor.java:Canvas_EditorBuilder_a.java:Circle_Editor.java:Circle_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:Square_Editor.java:Square_EditorBuilder_a.java" />
+</product>
 

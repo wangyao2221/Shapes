@@ -7,61 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed3663d-3413-4294-988a-3039568783fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/codeStyleSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mps/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/behavior/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/constraints/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/editor/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/structure/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/typesystem/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/classes_gen/Shapes/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/classes_gen/main/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/source_gen.caches/Shapes/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/source_gen.caches/Shapes/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/source_gen.caches/main/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/source_gen.caches/main/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/source_gen/Shapes/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/source_gen/Shapes/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/source_gen/main/QueriesGenerated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/generator/source_gen/main/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/sandbox/source_gen.caches/Shapes/sandbox/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/sandbox/source_gen.caches/Shapes/sandbox/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/sandbox/source_gen/Shapes/sandbox/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/behavior/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/behavior/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/constraints/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/constraints/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/structure/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/structure/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/typesystem/dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/typesystem/generated" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/Language.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/behavior/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/constraints/ConstraintsAspectDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/constraints/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/constraints/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/structure/LanguageConceptSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/structure/StructureAspectDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/structure/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/structure/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/trace.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/typesystem/TypesystemDescriptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/typesystem/checkpoints" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/typesystem/trace.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Canvas_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Canvas_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Circle_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Circle_EditorBuilder_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/EditorAspectDescriptorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Square_Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Square_EditorBuilder_a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/models/Shapes.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/models/Shapes.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/sandbox/models/Shapes.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/sandbox/models/Shapes.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/models/Shapes.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/models/Shapes.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/sandbox/source_gen.caches/Shapes/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/sandbox/source_gen.caches/Shapes/sandbox/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/trace.info" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +88,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="mps://node://Shapes/Shapes.structure/Canvas">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="60" />
+                    <property name="caretXRelative" value="0" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a">
+                      <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+              <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280343" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="mps://node://Shapes/Shapes.structure/Shape">
           <provider selected="true" editor-type-id="MPSFileEditor">
@@ -130,13 +129,11 @@
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="selectionStart" value="0" />
-                    <property name="hasNonTrivialSelection" value="true" />
-                    <property name="caretX" value="355" />
-                    <property name="selectionEnd" value="11" />
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="35" />
                     <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name">
+                    <cellInfo cellId="emptyChildrenPlaceHolder">
                       <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246927972" />
                     </cellInfo>
                   </stackElement>
@@ -146,7 +143,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -167,11 +164,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="35" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="495" />
+                    <property name="caretXRelative" value="60" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="emptyChildrenPlaceHolder">
-                      <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940901" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280230" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -180,7 +177,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -188,7 +185,7 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940901" />
+              <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248279991" />
             </state>
           </provider>
         </entry>
@@ -201,11 +198,11 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="235" />
-                    <property name="caretXRelative" value="70" />
+                    <property name="caretX" value="205" />
+                    <property name="caretXRelative" value="50" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name">
-                      <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940935" />
+                    <cellInfo cellId="property_text">
+                      <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280274" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -214,7 +211,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -222,46 +219,12 @@
                 <restoreAlways />
                 <enabledHints />
               </inspectorMemento>
-              <node node_ref="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940923" />
+              <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280247" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="mps://node://Shapes/Shapes.structure/Canvas">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="295" />
-                    <property name="caretXRelative" value="40" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_rootable">
-                      <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940945" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-              <node node_ref="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940945" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="mps://node://Shapes.sandbox/Shapes.sandbox/MyDrawing">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -269,7 +232,7 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="155" />
+                    <property name="caretX" value="615" />
                     <property name="caretXRelative" value="10" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_size">
@@ -282,46 +245,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="mps://node://Shapes#01/main@generator/main">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="35" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_mappingLabel">
-                      <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/1607845034246927688" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="refNodeList_dropAttrubuteRule">
-                      <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/1607845034246927688" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </foldable>
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -363,7 +287,7 @@
       </MessageListState>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1328" />
@@ -441,58 +365,6 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shapes#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/generator/template/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1607845034246927688" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eb8059fa-add2-4f5a-b131-11afad11ac9d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shapes" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eb8059fa-add2-4f5a-b131-11afad11ac9d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
               <option name="myItemType" value="" />
@@ -526,7 +398,11 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/models/Shapes.editor.mps]" />
+              <option name="myItemId" value="Shapes#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/generator/template/main@generator.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -554,6 +430,50 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="eb8059fa-add2-4f5a-b131-11afad11ac9d" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/models/Shapes.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eb8059fa-add2-4f5a-b131-11afad11ac9d" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shapes" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -563,6 +483,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/generator/template/main@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1607845034246927688" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,7 +547,7 @@
     <configuration>C:\Users\10090\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1060" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20869099" />
@@ -639,7 +563,7 @@
       <window_info anchor="bottom" id="Bookmarks" order="8" />
       <window_info anchor="bottom" id="Migration" order="9" />
       <window_info anchor="bottom" id="Menu Trace" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Classpath Explorer" order="13" />
       <window_info anchor="bottom" id="Usages" order="14" />
@@ -671,136 +595,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://Shapes/Shapes.structure/&lt;no name&gt;[ConceptDeclaration]" />
-    <entry file="mps://node://Shapes/Shapes.structure/Shape">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="selectionStart" value="0" />
-                <property name="hasNonTrivialSelection" value="true" />
-                <property name="caretX" value="355" />
-                <property name="selectionEnd" value="11" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246927972" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246927972" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Shapes/Shapes.structure/Circle">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="35" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="emptyChildrenPlaceHolder">
-                  <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940901" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940901" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Shapes/Shapes.structure/Square">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="235" />
-                <property name="caretXRelative" value="70" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940935" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940923" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://Shapes/Shapes.structure/Canvas">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="295" />
-                <property name="caretXRelative" value="40" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_rootable">
-                  <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940945" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940945" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Shapes#01/main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -827,7 +621,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246940950" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -838,6 +632,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="mps://node://Shapes/Shapes.structure/Circle">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="495" />
+                <property name="caretXRelative" value="60" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280230" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248279991" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.structure/Shape">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="35" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="emptyChildrenPlaceHolder">
+                  <node node_reference="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246927972" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure)/1607845034246927972" />
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://Shapes.sandbox/Shapes.sandbox/&lt;no name&gt;[Canvas]">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -845,7 +703,7 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="155" />
+                <property name="caretX" value="615" />
                 <property name="caretXRelative" value="10" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_size">
@@ -858,7 +716,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -866,6 +724,70 @@
             <restoreAlways />
             <enabledHints />
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.structure/Square">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="205" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_text">
+                  <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280274" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.structure/Canvas">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="60" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a">
+                  <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248331893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280343" />
         </state>
       </provider>
     </entry>
