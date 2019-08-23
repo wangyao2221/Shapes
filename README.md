@@ -58,3 +58,74 @@ Canvas表示画布，所有图形都绘制在Canvas上，在这个例子中画�
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823001422569.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823001346845.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
 至此，通过MPS创建Shapes的DSL的第一步——创建Concept就完成了，下一步就需要自定义Editor来使得图形描述起来更简单，就像目标预览中一样。
+
+[上一篇](https://blog.csdn.net/qq_24342739/article/details/99821442)文章介绍了MPS入门案例Shapes中创建Concept的过程，这篇文章将介绍如果创建Shapes这个DSL的Editor，它在语言层面上描述的是某种DSL的具体语法(Concrete Syntax)，也就是建模时写的代码（包含关键字、格式等），我们通常说的C++、Java、Python等的语法事实上指的就是这些语言的具体语法。
+## 创建Editor
+由于Shape是一个抽象的Concept，所以不需要定义它的Editor，从它的具体Concept开始创建Editor
+## 创建Circle的Editor
+首先打开Circle的Concept文件，我们可以通过在该文件下右键选择New→Concept Editor创建它的Editor，也可以通过点击编辑器下方的选项卡Editor，进入之后点击空白处选择，如下图所示：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823212334446.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823212521752.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823212559890.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+创建成功之后IDE会自动生成一个Editor的框架，我们需要在上面补全我们我们需要定义的语法，MPS是以单元格（Cell）的形式让用户创建语法树的，MPS提供了各种语法模板，在这里只对该案例需要用到的模板进行介绍，其它模板请查看官方文档。首先我们选中标红处"choose cell model"，在这里可以选择我们要使用的语法模板，此时最后使用Ctrl+Space快捷键来补全语法模板，以下是四种基本布局模板的解释：
+
+ - [] text constant：常量，也就是是一些硬编码的语法，固定不变的东西
+ - [-  -] collection intent：单元格集合，当单元格内容满一行时自动换行
+ - [/ /] collection vertical：垂直布局的单元格，比如if...else...语句的布局
+	```java
+	if(condition){
+		trueStatement
+	} else {
+		falseStatement
+	}
+	```
+ - [> <] collection horizontal：水平布局的单元格，比如上面的if和condition就是水平布局
+
+以上后面除了常量，其他三种布局都是可以相互嵌套的，这三种布局也可以嵌套常量，在这里我们选择Circle的跟布局为[-  -] collection intent布局
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823213042770.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823220100926.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+
+依次输入一下内容（通过Enter键往后追加单元格，通过Ctrl+Space补全，{}包裹着属性名称表示属性值）：
+
+- 常量：circle
+- 常量：x:
+- 属性值：{x} 一定要通过Ctrl+Space补全选择{x}，手敲的会作为常量
+- 常量：y:
+- 属性值：{y} 一定要通过Ctrl+Space补全选择{y}，手敲的会作为常量
+- 常量：radius:
+- 属性值：{radius} 一定要通过Ctrl+Space补全选择{radius}，手敲的会作为常量
+
+其中常量是固定不变的字符串，属性值是需要我们在建模时输入的值，定义完之后如下图所示：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823223731221.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+
+## 创建Square的Editor
+按照创建Circle Editor的步骤再来创建一个Square的Editor，包含的内容如下：
+
+ - 常量：square
+ - 常量：upperLeftX:
+ - 属性值：{upperLeftX}
+ - 常量：upperLeftY:
+ - 属性值：{upperLeftY}
+ - 常量：size:
+ - 属性值：{size}
+
+定义完之后如下图所示：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823224917213.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+## 创建Canvas的Editor
+Canvas的Edito比Circle和Square稍微复杂一些，因为它包含shapes这个children，需要用到(/ /) child node cell list (vertical)这个布局，如下图所示：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823225937459.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+Canvas的Editor包含的内容如下：
+- 常量：Painting
+- 属性值：{name} 即Canvas实例的名字
+- 子节点的集合：shapes 通过Ctrl + Space补全(\ \\)后输入在< no link >处补全shapes
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823230856671.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+
+按上述定义完Canvas的Editor后，rebuild一次项目，MPS会自动更新我们在上一节最后创建的模型MyDrawing，此时就是最新的样式：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823230658237.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+
+可以发现与预期的有点不一样，原因在于我们在Painting {name}后没有换行，因此需要调整，将光标放置在shapes前的(/出，按快捷键ALT+Enter，在弹出的提示中选择Add On New Line，这样shapes就会在新的一行显示，此时再次rebuild项目，MyDrawing会更新为目标的样式
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823231025240.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190823231037459.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzI0MzQyNzM5,size_16,color_FFFFFF,t_70)
+至此，所有Concept的Editor就已经定义好，我们此时就可以用自定义的语法来创建图形的实例模型了，后续需要给图形加上颜色属性，以及定义代码生成器去生成Java代码，通过调用Java的图形库来绘制图形。
