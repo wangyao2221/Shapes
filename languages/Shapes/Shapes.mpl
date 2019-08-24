@@ -5,7 +5,9 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="r:c9e37958-2215-45be-93c2-f1f8ee9e3e13(Shapes.colors)" />
+  </accessoryModels>
   <generators>
     <generator alias="main" namespace="Shapes#01" uuid="f64d59eb-9b5c-407d-8430-b7a0dee32ee1">
       <models>

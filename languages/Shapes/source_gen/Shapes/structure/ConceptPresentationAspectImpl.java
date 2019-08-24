@@ -11,6 +11,7 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Canvas;
   private ConceptPresentation props_Circle;
+  private ConceptPresentation props_Color;
   private ConceptPresentation props_Shape;
   private ConceptPresentation props_Square;
 
@@ -33,6 +34,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Circle = cpb.create();
         }
         return props_Circle;
+      case LanguageConceptSwitch.Color:
+        if (props_Color == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Color = cpb.create();
+        }
+        return props_Color;
       case LanguageConceptSwitch.Shape:
         if (props_Shape == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

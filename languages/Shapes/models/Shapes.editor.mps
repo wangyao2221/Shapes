@@ -119,5 +119,17 @@
       <node concept="l2Vlx" id="1pgdCCSfD$s" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="460HfZdILNA">
+    <ref role="1XX52x" to="mbpf:460HfZdILNr" resolve="Color" />
+    <node concept="3EZMnI" id="460HfZdILNC" role="2wV5jI">
+      <node concept="3F0ifn" id="460HfZdILNJ" role="3EZMnx">
+        <property role="3F0ifm" value="Color" />
+      </node>
+      <node concept="3F0A7n" id="460HfZdILNP" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="460HfZdILNF" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

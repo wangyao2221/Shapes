@@ -107,5 +107,15 @@
       <ref role="20lvS9" node="1pgdCCSavp$" resolve="Shape" />
     </node>
   </node>
+  <node concept="1TIwiD" id="460HfZdILNr">
+    <property role="EcuMT" value="4719971420245531867" />
+    <property role="TrG5h" value="Color" />
+    <property role="19KtqR" value="true" />
+    <property role="34LRSv" value="color" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="460HfZdILNs" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
