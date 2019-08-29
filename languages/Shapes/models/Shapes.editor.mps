@@ -21,6 +21,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -124,6 +125,7 @@
     <node concept="3EZMnI" id="460HfZdILNC" role="2wV5jI">
       <node concept="3F0ifn" id="460HfZdILNJ" role="3EZMnx">
         <property role="3F0ifm" value="Color" />
+        <node concept="VechU" id="lQSWoiLApf" role="3F10Kt" />
       </node>
       <node concept="3F0A7n" id="460HfZdILNP" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
