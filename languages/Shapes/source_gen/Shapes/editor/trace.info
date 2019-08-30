@@ -597,83 +597,87 @@
       <unit id="4719971420245531878" at="10,0,15,0" name="Shapes.editor.Color_Editor" />
     </file>
     <file name="Color_EditorBuilder_a.java">
-      <node id="4719971420245531878" at="36,85,37,19" concept="7" />
-      <node id="4719971420245531878" at="37,19,38,18" concept="1" />
-      <node id="4719971420245531878" at="43,26,44,18" concept="6" />
-      <node id="4719971420245531878" at="47,39,48,32" concept="6" />
-      <node id="4719971420245531878" at="51,43,52,118" concept="5" />
-      <node id="4719971420245531878" at="52,118,53,48" concept="1" />
-      <node id="4719971420245531878" at="53,48,54,28" concept="1" />
-      <node id="4719971420245531878" at="54,28,55,31" concept="1" />
-      <node id="4719971420245531887" at="55,31,56,49" concept="1" />
-      <node id="4719971420245531893" at="56,49,57,49" concept="1" />
-      <node id="4719971420245531878" at="57,49,58,22" concept="6" />
-      <node id="4719971420245531887" at="60,41,61,98" concept="5" />
-      <node id="4719971420245531887" at="61,98,62,47" concept="1" />
-      <node id="4719971420245531887" at="62,47,63,34" concept="1" />
-      <node id="4719971420245531887" at="63,34,64,22" concept="6" />
-      <node id="4719971420245531893" at="66,41,67,39" concept="1" />
-      <node id="4719971420245531893" at="68,9,69,146" concept="5" />
-      <node id="4719971420245531893" at="69,146,70,76" concept="1" />
-      <node id="4719971420245531893" at="70,76,71,149" concept="5" />
-      <node id="4719971420245531893" at="71,149,72,45" concept="1" />
-      <node id="4719971420245531893" at="72,45,73,153" concept="1" />
-      <node id="4719971420245531893" at="73,153,74,157" concept="1" />
-      <node id="4719971420245531893" at="74,157,75,44" concept="1" />
-      <node id="4719971420245531893" at="75,44,76,86" concept="1" />
-      <node id="4719971420245531893" at="76,86,77,33" concept="1" />
-      <node id="4719971420245531893" at="77,33,78,306" concept="5" />
-      <node id="4719971420245531893" at="80,41,81,118" concept="6" />
-      <node id="4719971420245531893" at="84,74,85,89" concept="5" />
-      <node id="4719971420245531893" at="85,89,86,145" concept="6" />
-      <node id="4719971420245531893" at="87,12,88,24" concept="6" />
-      <node id="4719971420245531893" at="89,15,90,40" concept="1" />
-      <node id="4719971420245531878" at="33,0,35,0" concept="2" trace="myNode" />
-      <node id="4719971420245531878" at="47,0,50,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4719971420245531893" at="80,0,83,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
-      <node id="4719971420245531878" at="36,0,40,0" concept="0" trace="Color_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
-      <node id="4719971420245531878" at="41,0,46,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
-      <node id="4719971420245531893" at="78,306,83,9" concept="5" />
-      <node id="4719971420245531893" at="83,9,88,24" concept="3" />
-      <node id="4719971420245531887" at="60,0,66,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4719971420245531878" at="51,0,60,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <node id="4719971420245531893" at="67,39,91,5" concept="8" />
-      <node id="4719971420245531893" at="66,0,93,0" concept="4" trace="createProperty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
-      <scope id="4719971420245531878" at="43,26,44,18" />
-      <scope id="4719971420245531878" at="47,39,48,32" />
-      <scope id="4719971420245531893" at="80,41,81,118" />
-      <scope id="4719971420245531893" at="89,15,90,40" />
-      <scope id="4719971420245531878" at="36,85,38,18" />
-      <scope id="4719971420245531893" at="84,74,86,145">
+      <node id="4719971420245531878" at="40,85,41,19" concept="7" />
+      <node id="4719971420245531878" at="41,19,42,18" concept="1" />
+      <node id="4719971420245531878" at="47,26,48,18" concept="6" />
+      <node id="4719971420245531878" at="51,39,52,32" concept="6" />
+      <node id="4719971420245531878" at="55,43,56,118" concept="5" />
+      <node id="4719971420245531878" at="56,118,57,48" concept="1" />
+      <node id="4719971420245531878" at="57,48,58,28" concept="1" />
+      <node id="4719971420245531878" at="58,28,59,31" concept="1" />
+      <node id="4719971420245531887" at="59,31,60,49" concept="1" />
+      <node id="4719971420245531893" at="60,49,61,49" concept="1" />
+      <node id="4719971420245531878" at="61,49,62,22" concept="6" />
+      <node id="4719971420245531887" at="64,41,65,98" concept="5" />
+      <node id="4719971420245531887" at="65,98,66,47" concept="1" />
+      <node id="4719971420245531887" at="66,47,67,34" concept="5" />
+      <node id="393752457299519055" at="67,34,68,56" concept="1" />
+      <node id="4719971420245531887" at="68,56,69,40" concept="1" />
+      <node id="4719971420245531887" at="69,40,70,34" concept="1" />
+      <node id="4719971420245531887" at="70,34,71,22" concept="6" />
+      <node id="4719971420245531893" at="73,41,74,39" concept="1" />
+      <node id="4719971420245531893" at="75,9,76,146" concept="5" />
+      <node id="4719971420245531893" at="76,146,77,76" concept="1" />
+      <node id="4719971420245531893" at="77,76,78,149" concept="5" />
+      <node id="4719971420245531893" at="78,149,79,45" concept="1" />
+      <node id="4719971420245531893" at="79,45,80,153" concept="1" />
+      <node id="4719971420245531893" at="80,153,81,157" concept="1" />
+      <node id="4719971420245531893" at="81,157,82,44" concept="1" />
+      <node id="4719971420245531893" at="82,44,83,86" concept="1" />
+      <node id="4719971420245531893" at="83,86,84,33" concept="1" />
+      <node id="4719971420245531893" at="84,33,85,306" concept="5" />
+      <node id="4719971420245531893" at="87,41,88,118" concept="6" />
+      <node id="4719971420245531893" at="91,74,92,89" concept="5" />
+      <node id="4719971420245531893" at="92,89,93,145" concept="6" />
+      <node id="4719971420245531893" at="94,12,95,24" concept="6" />
+      <node id="4719971420245531893" at="96,15,97,40" concept="1" />
+      <node id="4719971420245531878" at="37,0,39,0" concept="2" trace="myNode" />
+      <node id="4719971420245531878" at="51,0,54,0" concept="4" trace="createCell#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4719971420245531893" at="87,0,90,0" concept="4" trace="accept#(Lorg/jetbrains/mps/openapi/model/SNode;)Z" />
+      <node id="4719971420245531878" at="40,0,44,0" concept="0" trace="Color_EditorBuilder_a#(Ljetbrains/mps/openapi/editor/EditorContext;Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <node id="4719971420245531878" at="45,0,50,0" concept="4" trace="getNode#()Lorg/jetbrains/mps/openapi/model/SNode;" />
+      <node id="4719971420245531893" at="85,306,90,9" concept="5" />
+      <node id="4719971420245531893" at="90,9,95,24" concept="3" />
+      <node id="4719971420245531878" at="55,0,64,0" concept="4" trace="createCollection_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4719971420245531887" at="64,0,73,0" concept="4" trace="createConstant_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <node id="4719971420245531893" at="74,39,98,5" concept="8" />
+      <node id="4719971420245531893" at="73,0,100,0" concept="4" trace="createProperty_0#()Ljetbrains/mps/openapi/editor/cells/EditorCell;" />
+      <scope id="4719971420245531878" at="47,26,48,18" />
+      <scope id="4719971420245531878" at="51,39,52,32" />
+      <scope id="4719971420245531893" at="87,41,88,118" />
+      <scope id="4719971420245531893" at="96,15,97,40" />
+      <scope id="4719971420245531878" at="40,85,42,18" />
+      <scope id="4719971420245531893" at="91,74,93,145">
         <var name="manager" id="4719971420245531893" />
       </scope>
-      <scope id="4719971420245531878" at="47,0,50,0" />
-      <scope id="4719971420245531893" at="80,0,83,0">
+      <scope id="4719971420245531878" at="51,0,54,0" />
+      <scope id="4719971420245531893" at="87,0,90,0">
         <var name="it" id="4719971420245531893" />
       </scope>
-      <scope id="4719971420245531878" at="36,0,40,0">
+      <scope id="4719971420245531878" at="40,0,44,0">
         <var name="context" id="4719971420245531878" />
         <var name="node" id="4719971420245531878" />
       </scope>
-      <scope id="4719971420245531887" at="60,41,64,22">
-        <var name="editorCell" id="4719971420245531887" />
-      </scope>
-      <scope id="4719971420245531878" at="41,0,46,0" />
-      <scope id="4719971420245531887" at="60,0,66,0" />
-      <scope id="4719971420245531878" at="51,43,58,22">
+      <scope id="4719971420245531878" at="45,0,50,0" />
+      <scope id="4719971420245531878" at="55,43,62,22">
         <var name="editorCell" id="4719971420245531878" />
       </scope>
-      <scope id="4719971420245531878" at="51,0,60,0" />
-      <scope id="4719971420245531893" at="68,9,88,24">
+      <scope id="4719971420245531887" at="64,41,71,22">
+        <var name="editorCell" id="4719971420245531887" />
+        <var name="style" id="4719971420245531887" />
+      </scope>
+      <scope id="4719971420245531878" at="55,0,64,0" />
+      <scope id="4719971420245531887" at="64,0,73,0" />
+      <scope id="4719971420245531893" at="75,9,95,24">
         <var name="currentPropertyAttributes" id="4719971420245531893" />
         <var name="editorCell" id="4719971420245531893" />
         <var name="property" id="4719971420245531893" />
         <var name="propertyAttributes" id="4719971420245531893" />
       </scope>
-      <scope id="4719971420245531893" at="66,41,91,5" />
-      <scope id="4719971420245531893" at="66,0,93,0" />
-      <unit id="4719971420245531893" at="79,102,83,7" name="Shapes.editor.Color_EditorBuilder_a$1" />
-      <unit id="4719971420245531878" at="32,0,94,0" name="Shapes.editor.Color_EditorBuilder_a" />
+      <scope id="4719971420245531893" at="73,41,98,5" />
+      <scope id="4719971420245531893" at="73,0,100,0" />
+      <unit id="4719971420245531893" at="86,102,90,7" name="Shapes.editor.Color_EditorBuilder_a$1" />
+      <unit id="4719971420245531878" at="36,0,101,0" name="Shapes.editor.Color_EditorBuilder_a" />
     </file>
   </root>
 </debug-info>

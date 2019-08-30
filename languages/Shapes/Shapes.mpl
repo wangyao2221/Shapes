@@ -7,6 +7,7 @@
   </models>
   <accessoryModels>
     <model modelUID="r:c9e37958-2215-45be-93c2-f1f8ee9e3e13(Shapes.colors)" />
+    <model modelUID="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)" />
   </accessoryModels>
   <generators>
     <generator alias="main" namespace="Shapes#01" uuid="f64d59eb-9b5c-407d-8430-b7a0dee32ee1">
@@ -48,6 +49,7 @@
   </generators>
   <sourcePath />
   <languageVersions>
+    <language slang="l:f718894d-fdff-459b-8dda-d7868aeb03b3:Shapes" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="8" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />

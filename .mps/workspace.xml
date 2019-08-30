@@ -7,9 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed3663d-3413-4294-988a-3039568783fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/languages/Shapes/models/Shapes.colors.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/models/Shapes.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/models/Shapes.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/models/Shapes.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/models/Shapes.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/Shapes.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/Shapes.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/colors/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/colors/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/colors/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/colors/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Color_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Color_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/trace.info" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +33,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="38fe273a-cb28-44a5-b6cb-daf5e1efd4c2/r:eac8d3b5-2106-4a9c-97cd-685194b16d2d(TempModule38fe273a-cb28-44a5-b6cb-daf5e1efd4c2/TempModel_963357330700)">
+            <model ref="872c2596-f40f-4cd3-80d2-f0e97b6e1bce/r:c6e90b64-574c-42ba-a105-a355c4bf3fae(TempModule872c2596-f40f-4cd3-80d2-f0e97b6e1bce/TempModel_217324280601400)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -43,11 +53,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="460HfZdILNk">
-                <node concept="3balQm" id="460HfZdILNl" role="aymYE" />
-                <node concept="2Clz$F" id="460HfZdILNm" role="aymYO" />
-                <node concept="2_V_lH" id="460HfZdILNn" role="1PhJh3">
-                  <ref role="2_V_lI" node="460HfZdILNm" resolve="CommandHolder" />
+              <node concept="aymSD" id="1AGz40JZAdP">
+                <node concept="3balQm" id="1AGz40JZAdQ" role="aymYE" />
+                <node concept="2Clz$F" id="1AGz40JZAdR" role="aymYO" />
+                <node concept="2_V_lH" id="1AGz40JZAdS" role="1PhJh3">
+                  <ref role="2_V_lI" node="1AGz40JZAdR" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -71,19 +81,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="mps://node://Shapes/Shapes.structure/Color">
           <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="205" />
-                    <property name="caretXRelative" value="40" />
+                    <property name="caretX" value="355" />
+                    <property name="caretXRelative" value="50" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name">
-                      <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/4719971420245531893" />
+                      <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/4719971420245531878" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -92,7 +102,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/4719971420245531893" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -101,6 +111,237 @@
                 <enabledHints />
               </inspectorMemento>
               <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/4719971420245531878" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Shapes/Shapes.colors/white">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="125" />
+                    <property name="caretXRelative" value="50" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517203" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Shapes/Shapes.colors/black">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="125" />
+                    <property name="caretXRelative" value="50" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517204" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Shapes/Shapes.colors/blue">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="115" />
+                    <property name="caretXRelative" value="40" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517205" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Shapes/Shapes.colors/cyan">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="115" />
+                    <property name="caretXRelative" value="40" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517206" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Shapes/Shapes.colors/green">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="125" />
+                    <property name="caretXRelative" value="50" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517207" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mps://node://Shapes/Shapes.colors/red">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="105" />
+                    <property name="caretXRelative" value="30" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517208" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="mps://node://Shapes/Shapes.colors/yellow">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState" editorFocused="true">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="135" />
+                    <property name="caretXRelative" value="60" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="property_name">
+                      <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints />
+              </inspectorMemento>
             </state>
           </provider>
         </entry>
@@ -211,6 +452,87 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/models/Shapes.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/models/Shapes.editor.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/models/Shapes.colors.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="accessories" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Favorites" />
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -230,47 +552,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Favorites" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/models/Shapes.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="full.screen.before.presentation.mode" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/MPSSamples.2019.1.5/mindmaps" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.modelCheckerSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -291,7 +579,7 @@
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21137339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15075107" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -301,16 +589,52 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Model Checker" order="7" />
-      <window_info anchor="bottom" id="Bookmarks" order="8" />
+      <window_info anchor="bottom" id="Bookmarks" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Migration" order="9" />
       <window_info anchor="bottom" id="Menu Trace" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33044422" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33044422" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Classpath Explorer" order="13" />
       <window_info anchor="bottom" id="Usages" order="14" />
       <window_info anchor="bottom" id="Node Explorer" order="15" />
       <window_info anchor="bottom" id="Module Dependencies" order="16" />
-      <window_info anchor="bottom" id="Version Control" order="17" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.33028457" />
+      <window_info anchor="bottom" id="Generation Tracer" order="18" />
+      <window_info anchor="bottom" id="Cell Explorer" order="19" sideWeight="0.49946353" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.49946353" visible="true" weight="0.32919955" />
+      <window_info anchor="bottom" id="Console" order="21" weight="0.3292683" />
+      <window_info anchor="bottom" id="RefactoringView" order="22" />
+      <window_info anchor="bottom" id="Inspector" order="23" sideWeight="0.5005365" side_tool="true" visible="true" weight="0.32919955" />
+      <window_info anchor="bottom" id="Dependencies Viewer" order="24" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Class Hierarchy" order="3" />
+      <window_info anchor="right" id="Typesystem Trace" order="4" />
+      <window_info anchor="right" id="Supertypes" order="5" />
+      <window_info anchor="right" id="Context Actions" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21405579" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Model Checker" order="7" />
+      <window_info active="true" anchor="bottom" id="Bookmarks" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Migration" order="9" />
+      <window_info anchor="bottom" id="Menu Trace" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33044422" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Classpath Explorer" order="13" />
+      <window_info anchor="bottom" id="Usages" order="14" />
+      <window_info anchor="bottom" id="Node Explorer" order="15" />
+      <window_info anchor="bottom" id="Module Dependencies" order="16" />
+      <window_info anchor="bottom" id="Version Control" order="17" weight="0.33044422" />
       <window_info anchor="bottom" id="Generation Tracer" order="18" />
       <window_info anchor="bottom" id="Cell Explorer" order="19" />
       <window_info anchor="bottom" id="Messages" order="20" weight="0.32936078" />
@@ -325,7 +649,7 @@
       <window_info anchor="right" id="Typesystem Trace" order="4" />
       <window_info anchor="right" id="Supertypes" order="5" />
       <window_info anchor="right" id="Context Actions" order="6" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="UsagesViewTool">
     <version id="1" />
@@ -337,10 +661,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="文档 - 定义Concept" />
     <MESSAGE value="文档 - 自定义Editor" />
-    <option name="LAST_COMMIT_MESSAGE" value="文档 - 自定义Editor" />
+    <MESSAGE value="添加Color" />
+    <MESSAGE value="Color Editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Color Editor" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://Shapes/Shapes.structure/&lt;no name&gt;[ConceptDeclaration]" />
     <entry file="mps://node://Shapes#01/main@generator/main">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -443,38 +768,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Shapes/Shapes.structure/Circle">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="495" />
-                <property name="caretXRelative" value="60" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name">
-                  <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280230" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/1607845034246952277" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints />
-          </inspectorMemento>
-          <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248279991" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://Shapes/Shapes.structure/Square">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -553,32 +846,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Shapes/Shapes.structure/&lt;no name&gt;[ConceptDeclaration]">
+    <entry file="mps://node://Shapes/Shapes.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://Shapes/Shapes.structure/Circle">
       <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="495" />
+                <property name="caretXRelative" value="60" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280230" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248280230" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
             <foldable />
             <restoreAlways />
+            <enabledHints />
           </inspectorMemento>
-          <node />
+          <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/1607845034248279991" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://Shapes/Shapes.structure/&lt;no name&gt;[ConceptDeclaration]">
+    <entry file="mps://node://Shapes/Shapes.structure/Color">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
           <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="355" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/4719971420245531878" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+          <node node_ref="r:3e35323e-1a53-4590-b77d-4f505974cbd8(Shapes.editor)/4719971420245531878" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="125" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517203" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <foldable />
@@ -591,7 +938,486 @@
             <foldable />
             <restoreAlways />
           </inspectorMemento>
-          <node />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517204" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="125" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517203" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517204" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/black">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="125" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517204" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517205" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="125" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517203" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517205" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/blue">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="115" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517205" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517206" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517206" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="125" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517203" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517206" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/cyan">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="115" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517206" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517207" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517207" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="125" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517203" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517207" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/green">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="125" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517207" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517208" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517208" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/red">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="105" />
+                <property name="caretXRelative" value="30" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517208" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers>
+              <errorMarker text="" propertyCell="true" cellId="property_name">
+                <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" />
+              </errorMarker>
+            </errorMarkers>
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://Shapes/Shapes.colors/&lt;no name&gt;[Color]">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="125" />
+                <property name="caretXRelative" value="50" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name">
+                  <node node_reference="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517203" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)/1850007754253517209" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints />
+          </inspectorMemento>
         </state>
       </provider>
     </entry>
