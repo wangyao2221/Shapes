@@ -48,6 +48,12 @@
     <property role="TrG5h" value="Shape" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1AGz40K06m6" role="1TKVEi">
+      <property role="IQ2ns" value="1850007754253559174" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="color" />
+      <ref role="20lvS9" node="1AGz40JZW6r" resolve="ColorReference" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1pgdCCSayz_">
     <property role="EcuMT" value="1607845034246940901" />
@@ -115,6 +121,18 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="460HfZdILNs" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1AGz40JZW6r">
+    <property role="EcuMT" value="1850007754253517211" />
+    <property role="TrG5h" value="ColorReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1AGz40JZW6s" role="1TKVEi">
+      <property role="IQ2ns" value="1850007754253517212" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="target" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="460HfZdILNr" resolve="Color" />
     </node>
   </node>
 </model>

@@ -4,9 +4,14 @@
   <languages>
     <use id="f718894d-fdff-459b-8dda-d7868aeb03b3" name="Shapes" version="0" />
   </languages>
-  <imports />
+  <imports>
+    <import index="o1c2" ref="r:1ccaf832-bdea-46c1-864e-955b76c6806a(Shapes.colors)" implicit="true" />
+  </imports>
   <registry>
     <language id="f718894d-fdff-459b-8dda-d7868aeb03b3" name="Shapes">
+      <concept id="1607845034246927972" name="Shapes.structure.Shape" flags="ng" index="Ius3I">
+        <child id="1850007754253559174" name="color" index="DFeB6" />
+      </concept>
       <concept id="1607845034246940901" name="Shapes.structure.Circle" flags="ng" index="IuxTJ">
         <property id="1607845034246940906" name="y" index="IuxTw" />
         <property id="1607845034246940902" name="x" index="IuxTG" />
@@ -19,6 +24,9 @@
       </concept>
       <concept id="1607845034246940945" name="Shapes.structure.Canvas" flags="ng" index="IuxYr">
         <child id="1607845034246940950" name="shapes" index="IuxYs" />
+      </concept>
+      <concept id="1850007754253517211" name="Shapes.structure.ColorReference" flags="ng" index="QkORr">
+        <reference id="1850007754253517212" name="target" index="QkORs" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -33,11 +41,17 @@
       <property role="IuxTG" value="1" />
       <property role="IuxTw" value="1" />
       <property role="IuxTV" value="1" />
+      <node concept="QkORr" id="1AGz40K0cpD" role="DFeB6">
+        <ref role="QkORs" to="o1c2:1AGz40JZW6o" resolve="red" />
+      </node>
     </node>
     <node concept="IuxTL" id="1pgdCCSa_ll" role="IuxYs">
       <property role="IuxTQ" value="5" />
       <property role="IuxYa" value="5" />
       <property role="IuxYd" value="2" />
+      <node concept="QkORr" id="1AGz40K0cpB" role="DFeB6">
+        <ref role="QkORs" to="o1c2:1AGz40JZW6l" resolve="blue" />
+      </node>
     </node>
   </node>
 </model>

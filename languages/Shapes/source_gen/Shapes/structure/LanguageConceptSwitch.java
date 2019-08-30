@@ -12,14 +12,16 @@ public final class LanguageConceptSwitch {
   public static final int Canvas = 0;
   public static final int Circle = 1;
   public static final int Color = 2;
-  public static final int Shape = 3;
-  public static final int Square = 4;
+  public static final int ColorReference = 3;
+  public static final int Shape = 4;
+  public static final int Square = 5;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L);
     builder.put(0x1650368a382a2911L, Canvas);
     builder.put(0x1650368a382a28e5L, Circle);
     builder.put(0x4180b4ffcdbb1cdbL, Color);
+    builder.put(0x19ac8c402fffc19bL, ColorReference);
     builder.put(0x1650368a3829f664L, Shape);
     builder.put(0x1650368a382a28fbL, Square);
     myIndex = builder.seal();
