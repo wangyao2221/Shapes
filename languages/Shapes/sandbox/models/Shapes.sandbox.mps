@@ -10,7 +10,7 @@
   <registry>
     <language id="f718894d-fdff-459b-8dda-d7868aeb03b3" name="Shapes">
       <concept id="1607845034246927972" name="Shapes.structure.Shape" flags="ng" index="Ius3I">
-        <child id="1850007754253559174" name="color" index="DFeB6" />
+        <child id="4706210970328165551" name="color" index="_eNPu" />
       </concept>
       <concept id="1607845034246940901" name="Shapes.structure.Circle" flags="ng" index="IuxTJ">
         <property id="1607845034246940906" name="y" index="IuxTw" />
@@ -35,22 +35,22 @@
       </concept>
     </language>
   </registry>
-  <node concept="IuxYr" id="1pgdCCSa_ld">
+  <node concept="IuxYr" id="45fOv5$tweX">
     <property role="TrG5h" value="MyDrawing" />
-    <node concept="IuxTJ" id="1pgdCCSa_lg" role="IuxYs">
+    <node concept="IuxTJ" id="45fOv5$twf2" role="IuxYs">
       <property role="IuxTG" value="1" />
       <property role="IuxTw" value="1" />
       <property role="IuxTV" value="1" />
-      <node concept="QkORr" id="1AGz40K0cpD" role="DFeB6">
-        <ref role="QkORs" to="o1c2:1AGz40JZW6o" resolve="red" />
+      <node concept="QkORr" id="45fOv5$twfe" role="_eNPu">
+        <ref role="QkORs" to="o1c2:1AGz40JZW6n" resolve="green" />
       </node>
     </node>
-    <node concept="IuxTL" id="1pgdCCSa_ll" role="IuxYs">
+    <node concept="IuxTL" id="45fOv5$tAeL" role="IuxYs">
       <property role="IuxTQ" value="5" />
       <property role="IuxYa" value="5" />
       <property role="IuxYd" value="2" />
-      <node concept="QkORr" id="1AGz40K0cpB" role="DFeB6">
-        <ref role="QkORs" to="o1c2:1AGz40JZW6l" resolve="blue" />
+      <node concept="QkORr" id="45fOv5$tGlq" role="_eNPu">
+        <ref role="QkORs" to="o1c2:1AGz40JZW6o" resolve="red" />
       </node>
     </node>
   </node>

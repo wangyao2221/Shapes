@@ -60,7 +60,6 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
     editorCell.addEditorCell(createProperty_1());
     editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createProperty_2());
-    editorCell.addEditorCell(createConstant_4());
     editorCell.addEditorCell(createComponent_0());
     return editorCell;
   }
@@ -168,12 +167,6 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
     } finally {
       getCellFactory().popCellContext();
     }
-  }
-  private EditorCell createConstant_4() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "color:");
-    editorCell.setCellId("Constant_zihja6_h0");
-    editorCell.setDefaultText("");
-    return editorCell;
   }
   private EditorCell createComponent_0() {
     EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "Shapes.editor.ShapeColor");

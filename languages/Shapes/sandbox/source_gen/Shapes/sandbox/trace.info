@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<debug-info version="2" />
+<debug-info version="2">
+  <root nodeRef="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)/4706210970328236989">
+    <file name="map_Canvas.java">
+      <unit id="4706210970328236989" at="6,0,8,0" name="Shapes.sandbox.map_Canvas" />
+    </file>
+  </root>
+</debug-info>
 

@@ -53,7 +53,7 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new ShapeColor_ComponentBuilder_a.colorSingleRoleHandler_mblc8h_b0(myNode, MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x19ac8c4030006586L, "color"), getEditorContext());
+    SingleRoleCellProvider provider = new ShapeColor_ComponentBuilder_a.colorSingleRoleHandler_mblc8h_b0(myNode, MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x414fd1f16474ecafL, "color"), getEditorContext());
     return provider.createCell();
   }
   private static class colorSingleRoleHandler_mblc8h_b0 extends SingleRoleCellProvider {
@@ -73,8 +73,8 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 
     protected EditorCell createChildCell(SNode child) {
       EditorCell editorCell = getUpdateSession().updateChildNodeCell(child);
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x19ac8c4030006586L, "color"), child));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x19ac8c4030006586L, "color"), child));
+      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x414fd1f16474ecafL, "color"), child));
+      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x414fd1f16474ecafL, "color"), child));
       installCellInfo(child, editorCell, false);
       return editorCell;
     }
@@ -86,13 +86,13 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
         editorCell.setSubstituteInfo((isEmpty ? new SEmptyContainmentSubstituteInfo(editorCell) : new SChildSubstituteInfo(editorCell)));
       }
       if (editorCell.getSRole() == null) {
-        editorCell.setSRole(MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x19ac8c4030006586L, "color"));
+        editorCell.setSRole(MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x414fd1f16474ecafL, "color"));
       }
     }
     @Override
     protected EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x19ac8c4030006586L, "color")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), MetaAdapterFactory.getContainmentLink(0xf718894dfdff459bL, 0x8ddad7868aeb03b3L, 0x1650368a3829f664L, 0x414fd1f16474ecafL, "color")));
       try {
         EditorCell editorCell = super.createEmptyCell();
         editorCell.setCellId("empty_color");

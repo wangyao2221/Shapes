@@ -2191,7 +2191,7 @@
                             <property role="Xl_RC" value="color" />
                           </node>
                           <node concept="1adDum" id="cf" role="37wK5m">
-                            <property role="1adDun" value="0x19ac8c4030006586L" />
+                            <property role="1adDun" value="0x414fd1f16474ecafL" />
                           </node>
                         </node>
                       </node>
@@ -2210,9 +2210,7 @@
                     </node>
                     <node concept="liA8E" id="c9" role="2OqNvi">
                       <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2$AggregationLinkBuilder.optional(boolean)" resolve="optional" />
-                      <node concept="3clFbT" id="cj" role="37wK5m">
-                        <property role="3clFbU" value="true" />
-                      </node>
+                      <node concept="3clFbT" id="cj" role="37wK5m" />
                     </node>
                   </node>
                   <node concept="liA8E" id="c7" role="2OqNvi">
@@ -2230,7 +2228,7 @@
               <node concept="liA8E" id="c3" role="2OqNvi">
                 <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2$AggregationLinkBuilder.origin(java.lang.String)" resolve="origin" />
                 <node concept="Xl_RD" id="cm" role="37wK5m">
-                  <property role="Xl_RC" value="1850007754253559174" />
+                  <property role="Xl_RC" value="4706210970328165551" />
                 </node>
               </node>
             </node>

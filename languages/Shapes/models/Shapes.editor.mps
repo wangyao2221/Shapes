@@ -85,10 +85,7 @@
       <node concept="3F0A7n" id="1pgdCCSfDyA" role="3EZMnx">
         <ref role="1NtTu8" to="mbpf:1pgdCCSayzL" resolve="radius" />
       </node>
-      <node concept="3F0ifn" id="1AGz40K06n1" role="3EZMnx">
-        <property role="3F0ifm" value="color:" />
-      </node>
-      <node concept="PMmxH" id="1AGz40K06nl" role="3EZMnx">
+      <node concept="PMmxH" id="45fOv5$tgdv" role="3EZMnx">
         <ref role="PMmxG" node="1AGz40K06mx" resolve="ShapeColor" />
       </node>
       <node concept="l2Vlx" id="1pgdCCSfDwh" role="2iSdaV" />
@@ -118,10 +115,7 @@
       <node concept="3F0A7n" id="1pgdCCSfD$6" role="3EZMnx">
         <ref role="1NtTu8" to="mbpf:1pgdCCSay$7" resolve="size" />
       </node>
-      <node concept="3F0ifn" id="1AGz40K06nC" role="3EZMnx">
-        <property role="3F0ifm" value="color:" />
-      </node>
-      <node concept="PMmxH" id="1AGz40K06nW" role="3EZMnx">
+      <node concept="PMmxH" id="45fOv5$tgd3" role="3EZMnx">
         <ref role="PMmxG" node="1AGz40K06mx" resolve="ShapeColor" />
       </node>
       <node concept="l2Vlx" id="1pgdCCSfDyW" role="2iSdaV" />
@@ -162,10 +156,10 @@
   </node>
   <node concept="24kQdi" id="1AGz40JZW6A">
     <ref role="1XX52x" to="mbpf:1AGz40JZW6r" resolve="ColorReference" />
-    <node concept="1iCGBv" id="1AGz40JZW6C" role="2wV5jI">
+    <node concept="1iCGBv" id="45fOv5$sxtL" role="2wV5jI">
       <ref role="1NtTu8" to="mbpf:1AGz40JZW6s" resolve="target" />
-      <node concept="1sVBvm" id="1AGz40JZW6E" role="1sWHZn">
-        <node concept="3F0A7n" id="1AGz40JZW6P" role="2wV5jI">
+      <node concept="1sVBvm" id="45fOv5$sxtN" role="1sWHZn">
+        <node concept="3F0A7n" id="45fOv5$sxtU" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
@@ -179,8 +173,8 @@
       <node concept="3F0ifn" id="1AGz40K06mI" role="3EZMnx">
         <property role="3F0ifm" value="color:" />
       </node>
-      <node concept="3F1sOY" id="1AGz40K06mO" role="3EZMnx">
-        <ref role="1NtTu8" to="mbpf:1AGz40K06m6" resolve="color" />
+      <node concept="3F1sOY" id="45fOv5$twfl" role="3EZMnx">
+        <ref role="1NtTu8" to="mbpf:45fOv5$teMJ" resolve="color" />
       </node>
       <node concept="l2Vlx" id="1AGz40K06mE" role="2iSdaV" />
     </node>
