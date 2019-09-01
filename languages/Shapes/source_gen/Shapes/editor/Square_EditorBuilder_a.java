@@ -136,7 +136,7 @@ import jetbrains.mps.openapi.editor.update.AttributeKind;
     }
   }
   private EditorCell createConstant_3() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "size");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "siz:");
     editorCell.setCellId("Constant_gaismf_f0");
     editorCell.setDefaultText("");
     return editorCell;

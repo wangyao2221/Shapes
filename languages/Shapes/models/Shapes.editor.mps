@@ -110,7 +110,7 @@
         <ref role="1NtTu8" to="mbpf:1pgdCCSay$0" resolve="upperLeftY" />
       </node>
       <node concept="3F0ifn" id="1pgdCCSfDzQ" role="3EZMnx">
-        <property role="3F0ifm" value="size" />
+        <property role="3F0ifm" value="siz:" />
       </node>
       <node concept="3F0A7n" id="1pgdCCSfD$6" role="3EZMnx">
         <ref role="1NtTu8" to="mbpf:1pgdCCSay$7" resolve="size" />
