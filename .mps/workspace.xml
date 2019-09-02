@@ -8,14 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ed3663d-3413-4294-988a-3039568783fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/Shapes.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/Shapes.mpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/editor/Square_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/classes_gen/Shapes/editor/Square_EditorBuilder_a.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/Shapes/generator/template/main@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/generator/template/main@generator.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/models/Shapes.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/models/Shapes.editor.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/sandbox/source_gen.caches/Shapes/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/sandbox/source_gen.caches/Shapes/sandbox/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/editor/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen.caches/Shapes/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Square_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/Shapes/source_gen/Shapes/editor/Square_EditorBuilder_a.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +22,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="23d5a04e-0b51-45a6-95d4-e21f4d8d84be/r:fa76683d-afb2-4d9b-81a7-17e59a3dc897(TempModule23d5a04e-0b51-45a6-95d4-e21f4d8d84be/TempModel_5981526686011)">
+            <model ref="51877542-cce1-4617-8da1-060ba1fb0175/r:c24ba02e-b0e1-49ca-8825-7541b57db68a(TempModule51877542-cce1-4617-8da1-060ba1fb0175/TempModel_104958409578404)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -49,11 +42,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6wWJYZDDHNT">
-                <node concept="3balQm" id="6wWJYZDDHNU" role="aymYE" />
-                <node concept="2Clz$F" id="6wWJYZDDHNV" role="aymYO" />
-                <node concept="2_V_lH" id="6wWJYZDDHNW" role="1PhJh3">
-                  <ref role="2_V_lI" node="6wWJYZDDHNV" resolve="CommandHolder" />
+              <node concept="aymSD" id="1HHaOPNR7Rf">
+                <node concept="3balQm" id="1HHaOPNR7Rg" role="aymYE" />
+                <node concept="2Clz$F" id="1HHaOPNR7Rh" role="aymYO" />
+                <node concept="2_V_lH" id="1HHaOPNR7Ri" role="1PhJh3">
+                  <ref role="2_V_lI" node="1HHaOPNR7Rh" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -104,7 +97,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466689" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466420" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -124,17 +117,27 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="55" />
-                    <property name="caretXRelative" value="10" />
+                    <property name="caretX" value="35" />
+                    <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_2sbeba_j0">
-                      <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466689" />
+                    <cellInfo cellId="Constant_s96plr_a">
+                      <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466420" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <transactionalProperties />
                 <foldable>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_fao2ea_a">
+                      <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/1976283423141846647" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="HAAC_refNodeList_annotation">
+                      <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/1976283423141846647" />
+                    </cellIdElement>
+                  </collapsedElement>
                   <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_msf9u8_b0">
                       <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685487476" />
@@ -153,7 +156,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466689" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466420" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -204,10 +207,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1328" />
-    <option name="height" value="866" />
+    <option name="x" value="952" />
+    <option name="width" value="976" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectPluginManager">
@@ -297,12 +299,56 @@
               <option name="myItemId" value="eb8059fa-add2-4f5a-b131-11afad11ac9d" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/models/Shapes.structure.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shapes#01" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/generator/template/main@generator.mps]" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="eb8059fa-add2-4f5a-b131-11afad11ac9d" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Shapes" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/sandbox/models/Shapes.sandbox.mps]" />
+              <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,56 +385,12 @@
               <option name="myItemId" value="eb8059fa-add2-4f5a-b131-11afad11ac9d" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eb8059fa-add2-4f5a-b131-11afad11ac9d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Shapes" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:3992b02d-2767-4ccb-b5ff-76a0ce737385(Shapes.structure) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/models/Shapes.structure.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shapes#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/generator/template/main@generator.mps]" />
+              <option name="myItemId" value="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/sandbox/models/Shapes.sandbox.mps]" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,26 +399,9 @@
               <option name="myItemId" value="Project" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f718894d-fdff-459b-8dda-d7868aeb03b3(Shapes)" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shapes#01" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator) in IdeaFile[file://D:/Workspace/MPS/Shapes/languages/Shapes/generator/template/main@generator.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="7511089315685352330" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="Favorites" />
       <pane id="FileSystem">
         <subPane>
           <expand>
@@ -436,6 +421,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Favorites" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,7 +449,7 @@
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18723176" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18991417" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -476,19 +462,19 @@
       <window_info anchor="bottom" id="Bookmarks" order="8" weight="0.3292683" />
       <window_info anchor="bottom" id="Migration" order="9" />
       <window_info anchor="bottom" id="Menu Trace" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49839056" visible="true" weight="0.105975196" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49839056" weight="0.105975196" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Classpath Explorer" order="13" />
       <window_info anchor="bottom" id="Usages" order="14" />
       <window_info anchor="bottom" id="Node Explorer" order="15" />
       <window_info anchor="bottom" id="Module Dependencies" order="16" />
-      <window_info anchor="bottom" id="Version Control" order="17" sideWeight="0.49785408" weight="0.32919955" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="17" sideWeight="0.49731758" visible="true" weight="0.45095828" />
       <window_info anchor="bottom" id="Generation Tracer" order="18" />
       <window_info anchor="bottom" id="Cell Explorer" order="19" sideWeight="0.49946353" weight="0.3292683" />
       <window_info anchor="bottom" id="Messages" order="20" sideWeight="0.49785408" weight="0.33709133" />
       <window_info anchor="bottom" id="Console" order="21" weight="0.3292683" />
       <window_info anchor="bottom" id="RefactoringView" order="22" />
-      <window_info anchor="bottom" id="Inspector" order="23" sideWeight="0.50214595" side_tool="true" weight="0.33709133" />
+      <window_info anchor="bottom" id="Inspector" order="23" sideWeight="0.5026824" side_tool="true" visible="true" weight="0.45095828" />
       <window_info anchor="bottom" id="Dependencies Viewer" order="24" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -551,7 +537,8 @@
     <MESSAGE value="Accessory Model" />
     <MESSAGE value="ShapeReference" />
     <MESSAGE value="Color定义结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color定义结束" />
+    <MESSAGE value="Generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generator" />
   </component>
   <component name="editorHistoryManager">
     <entry file="mps://node://Shapes.sandbox/Shapes.sandbox/&lt;no name&gt;[Color]" />
@@ -837,7 +824,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466689" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466420" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -855,17 +842,27 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="55" />
-                <property name="caretXRelative" value="10" />
+                <property name="caretX" value="35" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_2sbeba_j0">
-                  <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466689" />
+                <cellInfo cellId="Constant_s96plr_a">
+                  <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466420" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <transactionalProperties />
             <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a">
+                  <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/1976283423141846647" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="HAAC_refNodeList_annotation">
+                  <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/1976283423141846647" />
+                </cellIdElement>
+              </collapsedElement>
               <collapsedElement isCollapsed="false">
                 <cellIdElement cellId="Collection_msf9u8_b0">
                   <node node_reference="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685487476" />
@@ -884,7 +881,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466689" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:d19b93a7-df2c-461b-935a-ad896301c29c(main@generator)/7511089315685466420" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
