@@ -14,9 +14,9 @@ public class MyDrawing extends JFrame {
     protected void paintComponent(Graphics graphics) {
       super.paintComponent(graphics);
       graphics.setColor(Color.green);
-      graphics.drawOval(1, 1, 1, 1);
+      graphics.drawOval(10, 20, 30, 30);
       graphics.setColor(Color.red);
-      graphics.drawRect(5, 5, 2, 2);
+      graphics.drawRect(100, 200, 50, 50);
     }
   };
 

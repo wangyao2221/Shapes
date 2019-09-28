@@ -38,17 +38,17 @@
   <node concept="IuxYr" id="45fOv5$tweX">
     <property role="TrG5h" value="MyDrawing" />
     <node concept="IuxTJ" id="45fOv5$twf2" role="IuxYs">
-      <property role="IuxTG" value="1" />
-      <property role="IuxTw" value="1" />
-      <property role="IuxTV" value="1" />
+      <property role="IuxTG" value="10" />
+      <property role="IuxTw" value="20" />
+      <property role="IuxTV" value="30" />
       <node concept="QkORr" id="45fOv5$twfe" role="_eNPu">
         <ref role="QkORs" to="o1c2:1AGz40JZW6n" resolve="green" />
       </node>
     </node>
     <node concept="IuxTL" id="45fOv5$tAeL" role="IuxYs">
-      <property role="IuxTQ" value="5" />
-      <property role="IuxYa" value="5" />
-      <property role="IuxYd" value="2" />
+      <property role="IuxTQ" value="100" />
+      <property role="IuxYa" value="200" />
+      <property role="IuxYd" value="50" />
       <node concept="QkORr" id="45fOv5$tGlq" role="_eNPu">
         <ref role="QkORs" to="o1c2:1AGz40JZW6o" resolve="red" />
       </node>
