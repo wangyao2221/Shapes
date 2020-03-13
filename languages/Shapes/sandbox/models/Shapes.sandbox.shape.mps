@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5cce10df-bf04-4a86-8bfc-356e223b9e78(Shapes.sandbox)">
+<model ref="r:26540732-f9ef-4811-b33b-76af26ed4c2f(Shapes.sandbox.shape)">
   <persistence version="9" />
   <languages>
     <use id="f718894d-fdff-459b-8dda-d7868aeb03b3" name="Shapes" version="0" />
@@ -35,22 +35,22 @@
       </concept>
     </language>
   </registry>
-  <node concept="IuxYr" id="45fOv5$tweX">
+  <node concept="IuxYr" id="1fd$gs9Bzzp">
     <property role="TrG5h" value="MyDrawing" />
-    <node concept="IuxTJ" id="45fOv5$twf2" role="IuxYs">
-      <property role="IuxTG" value="10" />
-      <property role="IuxTw" value="20" />
-      <property role="IuxTV" value="30" />
-      <node concept="QkORr" id="45fOv5$twfe" role="_eNPu">
-        <ref role="QkORs" to="o1c2:1AGz40JZW6n" resolve="green" />
+    <node concept="IuxTJ" id="1fd$gs9Bzzw" role="IuxYs">
+      <property role="IuxTG" value="100" />
+      <property role="IuxTw" value="100" />
+      <property role="IuxTV" value="100" />
+      <node concept="QkORr" id="1fd$gs9BzzE" role="_eNPu">
+        <ref role="QkORs" to="o1c2:1AGz40JZW6o" resolve="red" />
       </node>
     </node>
-    <node concept="IuxTL" id="45fOv5$tAeL" role="IuxYs">
+    <node concept="IuxTL" id="1fd$gs9BzzS" role="IuxYs">
       <property role="IuxTQ" value="100" />
-      <property role="IuxYa" value="200" />
-      <property role="IuxYd" value="50" />
-      <node concept="QkORr" id="45fOv5$tGlq" role="_eNPu">
-        <ref role="QkORs" to="o1c2:1AGz40JZW6o" resolve="red" />
+      <property role="IuxYa" value="100" />
+      <property role="IuxYd" value="100" />
+      <node concept="QkORr" id="1fd$gs9Bz$6" role="_eNPu">
+        <ref role="QkORs" to="o1c2:1AGz40JZW6l" resolve="blue" />
       </node>
     </node>
   </node>
